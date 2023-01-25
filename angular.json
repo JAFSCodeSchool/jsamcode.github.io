@@ -19,8 +19,8 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              {"glob":"**/*", "input": "src/favicon.ico", "output": "./favicon.ico"},
-              {"glob":"**/*", "input": "src/assets", "output": "./assets"}
+              {"glob":"**/*", "input": "src/favicon.ico", "output": "src/jafscodeschool/favicon.ico"},
+              {"glob":"**/*", "input": "src/assets", "output": "src/jafscodeschool/assets"}
             ],
             "styles": [
               "src/styles.css"
